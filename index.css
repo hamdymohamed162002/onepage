@@ -322,6 +322,10 @@ background-color: black;
 .offcanvas-body {
 
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .sidebar-offcanvas{
     display: flex;
     flex-direction: column;
