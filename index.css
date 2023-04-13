@@ -386,8 +386,9 @@ display: flex;
 }
 .drawaing{
     position: relative;
-    height: 500px;
+   
     display: flex;
+    overflow: scroll !important;
     justify-content: center;
 }
 .sideCompoentn{
@@ -408,4 +409,13 @@ display: flex;
 }
 .profile-iconn{
     align-items: center;
+}
+.draw{
+    margin: auto;
+}
+@media (max-width:900px) {
+    .draw{
+        margin: auto;
+        margin-left: 500px;
+    }
 }
