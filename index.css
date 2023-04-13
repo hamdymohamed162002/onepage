@@ -425,12 +425,11 @@ display: flex;
     align-items: center;
 }
 .draw{
-    margin: auto;
+    margin-left: 100px;
 }
 @media (max-width:900px) {
     .draw{
-        margin: auto;
-        margin-left: 500px;
+   margin-left: 500px;
     }
 }
 .sideCompoentn img{
@@ -472,4 +471,90 @@ border-radius: 12px;
 }
 .accordion-header .down {
 transform: rotate(180deg);
+}
+.shape1{
+    width: 120px;
+    height: 150px;
+    border-radius: 15px;
+    position: relative;
+    background-color:#c0cbdb;
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: flex-end;
+}
+.shape1 .num{
+position: absolute;
+background-color: black;
+color: white;
+border-radius: 10px;
+font-weight: 600;
+top: -20px;
+left: 50%;
+
+transform: translateX(-50% );
+padding: 10px 15px;
+}
+.draw{
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+.drawaing{
+ 
+    padding: 50px;
+    
+}
+.shape1 .circlee{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+.cricle-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.line-dash{
+    width: 200px;
+    transform: translateY(-10px);
+    height: 1px;
+    border: 1px #c8d6e5 dashed;
+}
+.cricle1{
+    width: 120px;
+    height: 120px;
+    background-color:#c0cbdb;
+    position: relative;
+    transform: translateY(-10px);
+    border-radius: 50%;
+}
+.cricle1 .num{
+    position: absolute;
+background-color: black;
+color: white;
+border-radius: 10px;
+font-weight: 600;
+top: -20px;
+left: 50%;
+
+transform: translateX(-50% );
+padding: 10px 15px;
+}
+.line-dash2{
+    width: 150px;
+    transform: translateY(-10px);
+    height: 1px;
+    border: 1px #c8d6e5 dashed;
+}
+.cricle2{
+    width: 200px;
+    height: 200px;
+    background-color:#c0cbdb;
+    position: relative;
+    transform: translateY(-10px);
+    border-radius: 50%;
 }
