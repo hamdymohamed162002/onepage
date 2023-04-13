@@ -157,7 +157,10 @@ html {
     margin-left: 22%;
     justify-content: space-between;
 }
-
+.main-btns{
+    display: flex;
+    flex-wrap: wrap;
+}
 .main-btns a {
     background: #3c4b6b;
     padding: 10px 25px;
@@ -167,6 +170,8 @@ html {
     font-size: 18px;
     text-align: center;
     margin-right: 10px;
+    margin-bottom: 10px;
+ 
 }
 
 .main-btns a.active {
