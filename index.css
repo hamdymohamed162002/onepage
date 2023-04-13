@@ -21,7 +21,7 @@ html {
 
 .sidebar,
 .sidebar-placeholder {
-    width: 22%;
+    width: 20%;
     min-width: 250px;
     background-color: #212D45;
     color: white;
@@ -45,7 +45,10 @@ html {
 
 .logo {
     font-size: 28px;
-    margin-bottom: 10px;
+  margin-top: 15px;
+    font-family: 'Inter', sans-serif !important;
+    text-transform: uppercase;
+    
 }
 
 .mainContent {
@@ -64,7 +67,7 @@ html {
     align-items: center;
     width: 90%;
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .profile .image {
@@ -141,7 +144,7 @@ html {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 0;
+    top: -15px;
     right: 0;
 }
 
@@ -154,7 +157,7 @@ html {
     background-color: #212D45;
   
     display: flex;
-    margin-left: 22%;
+    margin-left: 20%;
     justify-content: space-between;
 }
 .main-btns{
@@ -181,7 +184,7 @@ html {
 .mainContent .content {
     padding: 10px;
     overflow: hidden;
-    margin-left: 22%;
+    margin-left: 20%;
     background-color: #F0F1F6;
 }
 
@@ -195,7 +198,8 @@ html {
     justify-content: flex-start;
     padding: 10px 5px;
     color: #EAC155 !important;
-    font-weight: 800px;
+    font-weight: 600;
+    font-size: 21px;
 }
 
 .content .accordion-header button {
@@ -211,8 +215,8 @@ html {
 }
 
 .content .accordion-header button img {
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
 }
 
 .owl-carousel .item {
@@ -283,7 +287,7 @@ html {
 background-color: black;
 }
 
-@media (max-width:1100px) {
+@media (max-width:1200px) {
 
     .mainNav,
     .mainContent .content,
@@ -326,9 +330,9 @@ background-color: black;
     margin-right: 20px;
 }
 .nav-icons .line{
-    width: 3px;
+    width: 1px;
     border-radius: 5px;
-    height: 100%;
+    height: 90%;
     background-color: white;
 }
 .profile-iconn{
@@ -374,7 +378,7 @@ display: flex;
     border-radius: 5px;
 }
 .itemm .icon{
-    transform: rotate(90deg);
+   
     margin-left: 20px;
     color: #EAC155;
 }
@@ -383,12 +387,15 @@ display: flex;
 }
 .click-img{
     cursor: pointer;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
 }
 .drawaing{
     position: relative;
    
     display: flex;
-    overflow: scroll !important;
+    
     justify-content: center;
 }
 .sideCompoentn{
@@ -421,4 +428,38 @@ display: flex;
 }
 .sideCompoentn img{
     margin-bottom: 15px
+    ;
+   
+}
+.content .accordion-item{
+border-radius: 12px;
+}
+.itemm .icon {
+    display: flex;
+    gap: 5px;
+}
+.itemm .icon div:first-child{
+    transform: rotate(-90deg);
+}
+.itemm .icon div:nth-child(2){
+    transform: rotate(90deg);
+}
+.firstt{
+    width: 510px;
+    clip-path: polygon(96% 0, 100% 50%, 96% 100%, 0 100%, 0 0);
+}
+@media (max-width:1200px) {
+    .firstt{
+        width: 400px;
+        clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 0 0);
+    }
+    .drawaing{
+        overflow: scroll !important;
+    }
+}
+.accordion-header .d-flex{
+    align-items: center;
+}
+.accordion-header .down {
+transform: rotate(180deg);
 }
