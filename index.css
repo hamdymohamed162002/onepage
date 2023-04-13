@@ -384,3 +384,28 @@ display: flex;
 .click-img{
     cursor: pointer;
 }
+.drawaing{
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.sideCompoentn{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F0F1F5;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.icon-1{
+    display: flex;
+    align-items: center;
+}
+.profile-iconn{
+    align-items: center;
+}
