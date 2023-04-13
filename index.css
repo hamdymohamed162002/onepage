@@ -434,6 +434,9 @@ display: flex;
 .content .accordion-item{
 border-radius: 12px;
 }
+.itemm .icon div{
+    cursor: pointer;
+}
 .itemm .icon {
     display: flex;
     gap: 5px;
