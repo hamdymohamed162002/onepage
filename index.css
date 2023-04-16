@@ -432,6 +432,11 @@ display: flex;
    margin-left: 500px;
     }
 }
+@media (max-width:480px) {
+    .draw{
+   margin-left: 700px;
+    }
+}
 .sideCompoentn img{
     margin-bottom: 15px
     ;
