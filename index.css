@@ -511,6 +511,13 @@ padding: 10px 15px;
     border-radius: 50%;
     background-color: white;
 }
+.owl-carousel .owl-stage {
+    display: flex;
+}
+.owl-carousel .owl-item {
+    width: auto;
+    height: 100%;
+}
 .cricle-container{
     width: 100%;
     display: flex;
